@@ -1,0 +1,44 @@
+.coupon { /* Rounded border */
+  margin: 0 auto; /* Center the coupon */
+  max-width: 600px;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: #002e66;
+}
+
+.promo {
+  background: #66abff;
+  padding: 3px;
+  color:#002e66;
+}
+
+.expire {
+  color: #cc0000;
+  font-weight: 7vw;
+}
+
+ .coupon{
+   color: #cce3ff;
+ }
+
+ div.zoomed { 
+    zoom: .4; 
+    -moz-transform: scale(1); 
+    -moz-transform-origin: 0 0;
+} 
+
+ \html{
+  background-image:url('../stars.gif');
+  background-repeat:repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.audio{
+  visibility: hidden;
+}
+
+img{
+  Width: 100%;
+}

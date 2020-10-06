@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('/w3images/forestbridge.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Thank You for Purchasing</title>
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css" />
+    <link href="/../CSS/about.css" rel="stylesheet" type="text/css" />
+        <link href="/../CSS/submit.css" rel="stylesheet" type="text/css" />
+         <link rel="stylesheet" href="/../CSS/style.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <link rel="icon" href="../../IMAGES/browser-icon.png">
+  </head>
+<body>
+
+
+
+    <script src="script.js"></script>
+    <div class="header-buttons">
+      <header>
+        <div class="header-logo">
+        <a href="/../index.html"><img src="../../IMAGES/logo.png" alt="logo"></a>
+        </div>
+        <ul>
+          <div class="dropdown" >
+            <button class="dropbtn" id="shopbutton"><li>Shop</li></button>
+            <div class="dropdown-box">
+              <a href="headsets.html">Glasses and Headsets</a>
+              <a href="games.html">Games</a>
+                       <a href="featured.html">Featured Items</a>
+            </div> 
+          </div>
+          <div id="nav-right-one">
+          <li> <a href="../about.html" alt="About">About</a></li>
+          </div>
+          <div id="nav-right-two">
+          <li><a href="../terms.html" alt="Terms Of Service">Terms of Service</a></li>
+          </div>
+        </ul>
+      </header>
+    </div>
+    <DIV style="position: absolute; top:15vw; left:10vw;width:80vw; height:160vw">
+    <div align="left">
+
+    <div id="about-content">
+    
+      <h1>Thank you for purchasing</h1>
+      <hr style="border:.7vw solid #f1f1f1">
+ 
+      <h2>Remember to check back to our site often to see our continually growing gallery of games.</h2>
+  
+
+</div>
+  <p>If you want to have your company advertised by UNAVRS email unavrsa@gmail.com about any inquiries you may have.</p>
+
+<div class="bgimg">
+  <div class="topleft">
+ 
+  </div>
+
+      <DIV style="position: absolute; top:10vw; left:20vw;width:45vw; height:20vw">
+   <h1>Your purchase will reach you in:</h1>
+  
+ 
+    <hr>
+    <p id="demo" style="font-size:30px"></p>
+  </div>
+  <div class="bottomleft">
+  <div class="middle">
+  </div>
+</div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("April 1, 2020 15:00:00").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+  
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</div>
+   <DIV style="position: absolute; top:110vw; left:5vw;width:100%; height:30vw">
+     <h2>Check out our new game!</h2>
+<div class="zoomed">
+<a href="games.html#fruit-attack-anchor"><img src="/../IMAGES/FRUIT.png"></a>
+</DIV>
+   </DIV>
+    </div>
+    </div>
+    </div>
+    </DIV>
+  </body>
+  
+</html>

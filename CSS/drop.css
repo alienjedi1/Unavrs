@@ -1,0 +1,51 @@
+/* Dropdown Button */
+.dropbtn {
+  background-color:#cce3ff;
+  color:  #002e66;
+  font-size: 3vw;
+  border: 1px transparent;
+  max-height: 7vw;
+  height: auto;
+  border-radius: 10%;
+  position: fixed;
+
+  font-family: 'Alata', sans-serif;
+
+}
+
+
+/*positions dropdown box*/
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  
+  
+}
+
+/*hides dropdown box by default*/
+.dropdown-box{
+  display: none;
+  position: fixed;
+
+  background-color: #66abff;
+  min-width: 20vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 2vw;
+  
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:#cce3ff;
+  color:  #002e66;
+  font-size: 3vw;
+  border: 1px transparent;
+  max-height: 7vw;
+  height: auto;
+  border-radius: 10%;
+  position: fixed;
+
+  font-family: 'Alata', sans-serif;
+
+}

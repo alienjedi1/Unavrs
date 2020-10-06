@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>School Package</title>    
+    <link href="/../../CSS/style.css" rel="stylesheet" type="text/css" />
+    <link href="/../../CSS/page1.css" rel="stylesheet" type="text/css"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" 
+    href="/../../IMAGES/browser-icon.png">
+ 
+    <style>
+.button {
+border: none;
+  outline: 0;
+  padding: 2vw;
+  color: #cce3ff;
+  background-color: #002e66;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 3.4vw;
+  font-family: 'Alata', sans-serif;
+}
+
+
+</style>
+    
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="header-buttons">
+      <header>
+        <div class="header-logo">
+        <a href="/../../index.html"><img src="../../IMAGES/logo.png" alt="logo"></a>
+        </div>
+        <ul>
+          <div class="dropdown" >
+            <button class="dropbtn" id="shopbutton"><li>Shop</li></button>
+            <div class="dropdown-box">
+              <a href="headsets.html">Glasses and Headsets</a>
+              <a href="games.html">Games</a>
+                         <a href="featured.html">Featured Items</a>
+
+              </div> 
+          </div>
+          <div id="nav-right-one">
+          <li> <a href="../about.html" alt="About">About</a></li>
+          </div>
+          <div id="nav-right-two">
+          <li><a href="../terms.html" alt="Terms Of Service">Terms of Service</a></li>
+          </div>
+
+          </div>
+    
+<div class="card">
+   <img src="schoolPackage.png" alt="School package" style="width:100%">
+  <h1>School Package</h1>
+ <p class="price"><strike>$1200</strike>    $812.50</p>
+  <p>Package of VR googles and games This discount is only limited to schools. Ask your district to contact us for the promo code. Promo code is required for purchase.</p>
+</div>
+</div>
+</div>
+
+<div style="position: absolute; top:15vw; left:60vw;width:35vw; height:260vw" >
+
+<span class="heading">User Rating</span>
+<span class="fa fa-star checked" style="font-size:2.2vw;"></span>
+<span class="fa fa-star checked" style="font-size:2.2vw;"></span>
+<span class="fa fa-star checked" style="font-size:2.2vw;"></span>
+<span class="fa fa-star checked" style="font-size:2.2vw;"></span>
+<span class="fa fa-star" style="font-size:2.2vw;"></span>
+<p>4.2 average based on 186 reviews.</p>
+<hr style="border:.7vw solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div class="text">5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div class="text">112</div>
+  </div>
+  <div class="side">
+    <div class="text">4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div class="text">46</div>
+  </div>
+  <div class="side">
+    <div class="text">3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div class="text">22</div>
+  </div>
+  <div class="side">
+    <div class="text">2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div class="text">8</div>
+  </div>
+  <div class="side">
+    <div class="text">1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div class="text">4</div>
+  </div>
+</div>
+
+<DIV style="position: absolute; top:55vw; left:0vw;width:60vw; height:160vw">
+
+  <a href="review.html"><input type="submit" value="Create a review" class="button"> </a>
+</DIV>
+</div>
+
+
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Promocode','');
+while (testV < 3) {
+if (!pass1)
+history.go(-1);
+if (pass1.toLowerCase() == "sch00lpackag3") 
+{alert('Enjoy your School Package!');
+window.open('schoolPackage.html');
+break;
+}
+testV+=1;
+var pass1 =
+prompt('Access Denied - Promocode Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3)
+history.go(-1);
+return " ";
+}
+</SCRIPT>
+
+  
+<DIV style="position: absolute; top:108vw; left:5vw; width:100vw; height:160vw">
+
+
+
+
+<FORM>
+ <input type="button" value="Purchase School Package" class="button" onClick="passWord()"> 
+
+</FORM>
+</DIV>
+
+</DIV>
+

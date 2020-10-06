@@ -1,0 +1,52 @@
+.content {
+  position: fixed;
+  left: 0vw;
+  bottom: 0;
+  background: rgba(0, 46, 102, 0.5);
+  color: #cce3ff;
+  width: 100%;
+  padding: 20px;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Alata', sans-serif;
+}
+h1, h2, h6,h5, p ,h3{
+  font-family: 'Alata', sans-serif;
+  color: #cce3ff;
+}
+
+
+a{
+  text-decoration-color: #cce3ff;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-size: 5vw;
+  
+}
+
+h2{
+  font-size: 3vw;
+   font-family: 'Alata', sans-serif;
+  color: #cce3ff;
+ 
+}
+p{
+  font-size: 2vw;
+  background-color:rgba(0, 46, 102, .5);
+  padding: 1vw;
+  
+}
+h6{
+ font-size: 1vw;
+}

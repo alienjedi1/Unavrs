@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Review</title>    
+    <link href="/../../CSS/style.css" rel="stylesheet" type="text/css" />
+    <link href="/../../CSS/page1.css" rel="stylesheet" type="text/css"/>
+    <link href="/../../CSS/review.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" 
+    href="/../../IMAGES/browser-icon.png">
+    <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Order</title>
+    <link href="../../CSS/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../CSS/checkout.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../IMAGES/browser-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="header-buttons">
+      <header>
+        <div class="header-logo">
+        <a href="../../index.html"><img src="../../IMAGES/logo.png" alt="logo"></a>
+        </div>
+        <ul>
+          <div class="dropdown" >
+            <button class="dropbtn" id="shopbutton"><li>Shop</li></button>
+            <div class="dropdown-box">
+              <a href="headsets.html">Glasses and Headsets</a>
+              <a href="games.html">Games</a>
+               <a href="featured.html">Featured Items</a>
+
+            </div> 
+          </div>
+          <div id="nav-right-one">
+          <li> <a href="../about.html" alt="About">About</a></li>
+          </div>
+          <div id="nav-right-two">
+          <li><a href="../terms.html" alt="Terms Of Service">Terms of Service</a></li>
+          </div>
+
+          
+        </ul>
+      </header>
+    </div>
+
+    
+
+  
+
+
+<DIV style="position: absolute; top:15vw; left:10vw;width:80vw; height:105vw">
+
+  
+
+    <div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>General Information</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+                   <label for="fname"> <b>#</b> Phone Number</label>
+            <input type="text" id="fname" name="Phone Number" placeholder="801-000-0000">
+
+            <br></br>
+
+            <h4> What item are you reviewing? </h4>
+            <select>
+  <option id="Basic VR Goggles">Basic VR Goggles</option>
+  <option id="Unavrs Orginal VR Goggles">Unavrs Orginal VR Goggles</option>
+  <option id="Unavrs Purple VR Goggles">Unavrs Purple VR Goggles</option>
+  <option id="Unavrs Green VR Goggles">Unavrs Green VR Goggles</option>
+    <option id="Unavrs Red VR Goggles">Unavrs Unavrs Red VR Goggles</option>
+    <option id="Unavrs AR Glasses">Unavrs AR Glasses</option>
+    <option id="School Package">School Package</option>
+            </select>
+             
+              
+             
+               
+             
+      
+            
+        <br></br>
+          </div>
+
+    <div class="col-50">
+
+          <h3>Your Review</h3>
+<br></br>
+        <label for="fname"><i class="fa fa-star"></i> Star Rating</label>
+
+      <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+
+        <br></br>
+     
+      <label for="fname"></i> Writen Review:</label>
+
+         <!--https://www.w3schools.com/tags/att_textarea_form.asp -->
+         
+      <div class="review">
+<textarea name="comment" form="usrform" rows = "30" cols = "50" input type="text" id="fname" name="review"   placeholder="Type Here"></textarea>
+
+      </div>
+
+<p></p>
+<p></p>
+        
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr">I Agree to the Terms of Service
+        </label>
+        <h5><a href="../terms.html" alt="Terms Of Service">Terms of Service</a></h5>
+<br></br>
+        
+<input type="button" value="Submit your review"class="btn" onclick="location.href='submit.html'">
+
+       
+      </form>
+
+    </div>
+  </div>
+    </div>
+    </div>
+  </div>
+</div>
+ <div class="audio">
+  <iframe src="../../music.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+  </iframe>
+ <audio controls autoplay> <source src="../../music.mp3" type="audio/mpeg" > </audio>
+    </div>

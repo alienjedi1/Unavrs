@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Order</title>
+    <link href="../../CSS/style.css" rel="stylesheet" type="text/css" />
+    <link href="../..//CSS/checkout2.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../IMAGES/browser-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+  <div class="header-buttons">
+      <header>
+        <div class="header-logo">
+        <a href="../../index.html"><img src="../../IMAGES/logo.png" alt="logo"></a>
+        </div>
+        <ul>
+          <div class="dropdown" >
+            <button class="dropbtn" id="shopbutton"><li>Shop</li></button>
+            <div class="dropdown-box">
+              <a href="headsets.html">Glasses and Headsets</a>
+              <a href="games.html">Games</a>
+                    <a href="featured.html">Featured Items</a>
+
+
+            </div> 
+          </div>
+          <div id="nav-right-one">
+          <li> <a href="../about.html" alt="About">About</a></li>
+          </div>
+          <div id="nav-right-two">
+          <li><a href="../terms.html" alt="Terms Of Service">Terms of Service</a></li>
+          </div>
+        </ul>
+      </header>
+    </div>
+    
+<DIV style="position: absolute; top:15vw; left:10vw;width:80vw; height:160vw">
+
+    <div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="123 W. 123 N.">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Salt Lake City">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="Utah">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001" maxlength = "5">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+                          <label for="promo">Coupon Promo Code</label>
+                <input type="text" id="promo" name="Promo Code" placeholder="abc123" maxlength = "6"> 
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+                <img
+                        src="https://www.merchantequip.com/image/?logos=v|m|d|p|bit&height=32" alt="Merchant Equipment Store Credit Card Logos"/>
+            </div>
+<label for="email"><i class="fa fa-envelope"></i> 
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John Doe">
+            <label for="ccnum">Credit Card Number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" maxlength = "16">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2022" maxlength = "4">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="666" maxlength = "4">
+  
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr">I Agree to the Terms of Service
+        </label>
+        <p><a href="../terms.html" alt="Terms Of Service">Terms of Service</a></p>
+
+ <input type="button" value="Continue to Checkout"class="btn" onclick="location.href='done.html'">
+      </form>
+
+    </div>
+  </div>
+
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart
+        <span class="price" style="color:#002e66">
+          <i class="fa fa-shopping-cart"></i>
+          <b>1</b>
+        </span>
+      </h4>
+      <p><a href="page6.html">UNAVRS AR Glasses</a> <span class="price">$70</span></p>
+     
+
+      <hr>
+      <p>Total after tax <span class="price" style="color:black"><b>$79.69</b></span></p>
+    </div>
+    </div>
+  </div>
+</div>
+ <div class="audio">
+  <iframe src="../../music.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+  </iframe>
+ <audio controls autoplay> <source src="../../music.mp3" type="audio/mpeg" > </audio>
+    </div>

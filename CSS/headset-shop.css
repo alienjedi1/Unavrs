@@ -1,0 +1,458 @@
+
+
+\html{
+  background-image:url('../stars.gif');
+  background-repeat:repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.audio{
+  visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*First item on headset shop*/
+#headsets-item-1 img{
+height: 30vw;
+top: 22.5vw;
+position: absolute;
+right: 53vw;
+
+
+}
+
+#headsets-item-1 h1{
+  top: 19vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 60vw;
+  font-size: 3vw;
+
+}
+
+#headsets-item-1 a{
+font-size: 2vw;
+position: absolute;
+top: 46.5vw;
+left: 18.5vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-1 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+/*Second item on headset shop*/
+#headsets-item-2 img{
+height: 30vw;
+top: 22.5vw;
+position: absolute;
+right: 14vw;
+z-index: -1;
+}
+
+#headsets-item-2 h1{
+  top: 19vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 15vw;
+  left: 52vw;
+  font-size: 3vw;
+
+}
+
+#headsets-item-2 a{
+font-size: 2vw;
+position: absolute;
+top: 46.5vw;
+left: 59vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-2 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+/*Third item on headset shop*/
+#headsets-item-3 img{
+height: 30vw;
+top: 52.5vw;
+position: absolute;
+right: 53vw;
+z-index: -1;
+}
+
+#headsets-item-3 h1{
+  top: 49vw;
+  position: absolute;
+  color: #FF9B38;
+ right: 60vw;
+  left: 15vw;
+  font-size: 3vw;
+
+
+}
+
+#headsets-item-3 a{
+font-size: 2vw;
+position: absolute;
+top: 77.5vw;
+left: 18.5vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-3 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+h1{
+color:  #FF9B38;
+text-align: center;
+}
+
+/*Fourth item on headset shop*/
+#headsets-item-4 img{
+height: 30vw;
+top: 52.5vw;
+position: absolute;
+right: 14vw;
+z-index: -1;
+}
+
+#headsets-item-4 h1{
+  top: 49vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 15vw;
+  left: 52vw;
+  font-size: 3vw;
+
+}
+
+#headsets-item-4 a{
+font-size: 2vw;
+position: absolute;
+top: 77.5vw;
+left: 59vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-4 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+/*Fifth item on headset shop*/
+#headsets-item-5 img{
+height: 30vw;
+top: 82.5vw;
+position: absolute;
+right: 53vw;
+z-index: -1;
+}
+
+#headsets-item-5 h1{
+  top: 79vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 60vw;
+  left: 15vw;
+  font-size: 3vw;
+
+}
+
+#headsets-item-5 a{
+font-size: 2vw;
+position: absolute;
+top: 107.5vw;
+left: 18.5vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-5 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+/*Sixth item on headset shop*/
+
+#headsets-item-6 img{
+height: 10vw;
+top: 90.5vw;
+position: absolute;
+right: 22vw;
+z-index: -1;
+}
+
+#headsets-item-6 h1{
+  top: 79vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 15vw;
+  left: 52vw;
+  font-size: 3vw;
+
+}
+
+#headsets-item-6 a{
+font-size: 2vw;
+position: absolute;
+top: 107.5vw;
+left: 59vw;
+color: #002e66;
+background-color:#cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-6 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.h1{
+  color: #cce3ff;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+
+}
+
+@media only screen and (max-width: 600px){
+  #headsets-item-1 img{
+height: 50vw;
+top: 22.5vw;
+position: absolute;
+right: 20vw;
+}
+
+
+
+#headsets-item-1 h1{
+  top: 19vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 30vw;
+  font-size: 5vw;
+
+}
+
+#headsets-item-1 a{
+font-size: 4vw;
+position: absolute;
+top: 64.5vw;
+left: 30.5vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+
+/*Second item on headset shop*/
+#headsets-item-2 img{
+height: 50vw;
+top: 72.5vw;
+position: absolute;
+right: 20vw;
+z-index: -1;
+}
+
+#headsets-item-2 h1{
+  top: 69vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 30vw;
+  left: 15vw;
+  font-size: 5vw;
+
+}
+
+#headsets-item-2 a{
+font-size: 4vw;
+position: absolute;
+top: 116.5vw;
+left: 30.5vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-2 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+/*Third item on headset shop*/
+#headsets-item-3 img{
+height: 50vw;
+top: 122.5vw;
+position: absolute;
+right: 20vw;
+z-index: -1;
+}
+
+#headsets-item-3 h1{
+  top: 119vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 30vw;
+  left: 15vw;
+  font-size: 5vw;
+
+}
+
+#headsets-item-3 a{
+font-size: 4vw;
+position: absolute;
+top: 166.5vw;
+left: 30.5vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-3 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+h1{
+color:  #FF9B38;
+text-align: center;
+}
+
+/*Fourth item on headset shop*/
+#headsets-item-4 img{
+height: 50vw;
+top: 172.5vw;
+position: absolute;
+right: 20vw;
+z-index: -1;
+}
+
+#headsets-item-4 h1{
+   top: 169vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 30vw;
+  left: 15vw;
+  font-size: 5vw;
+
+}
+
+#headsets-item-4 a{
+font-size: 4vw;
+position: absolute;
+top: 216.5vw;
+left: 30.5vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-4 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+/*Fifth item on headset shop*/
+#headsets-item-5 img{
+height: 50vw;
+top: 222.5vw;
+position: absolute;
+right: 20vw;
+z-index: -1;
+}
+
+#headsets-item-5 h1{
+  top: 219vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 30vw;
+  left: 15vw;
+  font-size: 5vw;
+
+}
+
+#headsets-item-5 a{
+font-size: 4vw;
+position: absolute;
+top: 266.5vw;
+left: 30.5vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-5 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+/*Sixth item on headset shop*/
+
+#headsets-item-6 img{
+height: 25vw;
+top: 277.5vw;
+position: absolute;
+right: 20vw;
+z-index: -1;
+}
+
+#headsets-item-6 h1{
+   top: 269vw;
+  position: absolute;
+  color: #FF9B38;
+  right: 25vw;
+  left: 15vw;
+  font-size: 5vw;
+
+
+}
+
+#headsets-item-6 a{
+font-size: 4vw;
+position: absolute;
+top: 306.5vw;
+left: 30.5vw;
+color: #002e66;
+background-color: #cce3ff;
+border-radius: 10%;
+}
+
+#headsets-item-6 a:hover{
+  background-color: #FF9B38;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+
+}
